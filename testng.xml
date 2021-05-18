@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="TestSuite">
+
+<!-- Suite -->
+<test thread-count="5" name="LoginTest">
+
+
+<classes>
+
+<class name="com.qa.test.LoginTest"/>
+
+</classes>
+
+</test>
+
+<!-- Test -->
+<test thread-count="5" name="HomeTest">
+
+
+<classes>
+
+  <class name="com.qa.test.HomeTest"/>
+
+</classes>
+
+</test>
+
+<!-- Test -->
+<test thread-count="5" name="ClientTest">
+
+
+<classes>
+
+  <class name="com.qa.test.ClientTest"/>
+
+</classes>
+
+</test>
+
+<!-- Test -->
+<test thread-count="5" name="CreateclientTest">
+
+
+<classes>
+
+  <class name="com.qa.test.CreateclientTest"/>
+
+</classes>
+
+</test>
+
+<!-- Test -->
+<test thread-count="5" name="WorkersTest">
+
+
+<classes>
+
+  <class name="com.qa.test.WorkersTest"/>
+
+</classes>
+
+</test>
+
+<!-- Test -->
+<test thread-count="5" name="DeductionTest">
+
+
+<classes>
+
+  <class name="com.qa.test.DeductionTest"/>
+
+</classes>
+
+</test>
+
+<!-- Test -->
+<test thread-count="5" name="TimesheetTest">
+
+
+<classes>
+
+  <class name="com.qa.test.TimesheetTest"/>
+
+</classes>
+
+</test>
+<!-- Test -->
+<test thread-count="5" name="PayslipTest">
+
+
+<classes>
+
+  <class name="com.qa.test.PayslipTest"/>
+
+</classes>
+
+</test>
+<!-- Test -->
+<test thread-count="5" name="InvoiceTest">
+
+
+<classes>
+
+  <class name="com.qa.test.InvoiceTest"/>
+
+</classes>
+
+</test>
+<!-- Test -->
+<test thread-count="5" name="ReportTest">
+
+
+<classes>
+
+  <class name="com.qa.test.ReportTest"/>
+
+</classes>
+
+</test>
+</suite>
+  
