@@ -18,7 +18,7 @@ public class PayslipTest extends BaseTest {
 
 		String actualtitle = p2.doPayslipsModuleDownloadpaysliptest();
 		String expectedtitle = "Payslips";
-		System.out.println("valuePayslipPage===" + actualtitle);
+		System.out.println("valuePayslipPage=" + actualtitle);
 		Assert.assertEquals(actualtitle, expectedtitle, "HomePageTitle matched ");
 		System.out.println("PayslipsModuleDownloadpaysliptestpassed and is Working fine – Assert passed");
 	}
